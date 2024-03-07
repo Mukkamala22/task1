@@ -60,7 +60,9 @@ for car in list_cars:
     if "Sunroof" in car.features or "6 Airbags" in car.features:
         print(car.model)
 
+
 print(list_cars)
+
 
 car1 = [ ]
 car2 = [ ]
@@ -93,3 +95,8 @@ grt_four = [num for num in lsit if num >= 4]
 print(grt_four)
 
 print(car.price)
+
+print(car.price)
+
+
+
