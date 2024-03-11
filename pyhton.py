@@ -96,7 +96,4 @@ print(grt_four)
 
 print(car.price)
 
-print(car.price)
-
-
-
+print(car.model)
