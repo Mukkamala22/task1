@@ -118,7 +118,34 @@ y = {"rajesh":24}
 x.append(y)
 print(x)
 
-file = open('geek.txt', 'r')
+file = open('demo_text.txt', 'r')
 
 for each in file:
     print(each)
+
+with open("demo_text.txt")as file:
+    data = file.read()
+
+print(data)
+
+file = open("demo_text.txt","r")
+print(file.read(5))
+
+
+file = open("demo_text.txt",'w')
+file.write("writing a command line ")
+file.write(" accessing files ")
+file.close()
+
+file = open('demo_text.txt','a')
+file.write('  line has been added')
+file.close()
+
+file = open('demo_text.txt','r')
+
+print(file.readlines())
+
+file = open("sampledownload.jpeg","rb")
+file2 = open("mypic.JPG","wb")
+for i in file:
+    file2.write(i)
