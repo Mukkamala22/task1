@@ -97,3 +97,28 @@ print(grt_four)
 print(car.price)
 
 print(car.model)
+
+x = ["vamsi","vijay"]
+x.insert(1,"ravi")
+print(x)
+
+x = ["vamsi","vijay"]
+y = ["ravi"]
+x.insert(2,y)
+print(x)
+x.pop(1)
+print(x)
+
+x = ['vamsi', 'ravi', 'vijay']
+x.remove("vamsi")
+print(x)
+
+x = ['vamsi', 'ravi', 'vijay']
+y = {"rajesh":24}
+x.append(y)
+print(x)
+
+file = open('geek.txt', 'r')
+
+for each in file:
+    print(each)
