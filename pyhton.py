@@ -152,9 +152,9 @@ for i in file:
 
 file3 = open("myfile.txt","a")
 
-file3.write(" company ")
-file3.write(" model ")
-file3.write(" year ")
+file3.write(" company \n")
+file3.write(" model \n")
+file3.write(" year \n")
 file3.write(" created a log ")
 file3.close()
 
