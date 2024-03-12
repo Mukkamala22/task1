@@ -178,7 +178,7 @@ def read_file(filename):
             content = file.read()
             print(content)
     except IOError:
-        print("error: could not rea file " + filename)
+        print("error: could not read file " + filename)
 
 def append_file(filename, text):
     try:
@@ -213,8 +213,27 @@ if __name__ == '__main__':
     rename_file(filename, new_filename)
     read_file(new_filename)
     delete_file(new_filename)
-              
-    
+
+a = 2
+b = 0
+try:
+    print(a/b)
+except Exception:
+    print("numbers cannot be divided")
+
+
+file = open("vamsi's.txt","a")
+
+file.write("info \n")
+file.write("Name \n")
+file.write("Date of birth \n")
+file.write("Place of birth \n")
+file.write("Profession \n")
+file.close()       
+
+
+
+
     
 
 
