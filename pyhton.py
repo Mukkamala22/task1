@@ -158,7 +158,7 @@ file3.write(" year \n")
 file3.write(" created a log ")
 file3.close()
 
-file3 = open('myfile.txt', 'r')
+import os
 
-for each in file3: 
-    print(each)
+os.remove("myfile.txt")
+
