@@ -149,3 +149,16 @@ file = open("sampledownload.jpeg","rb")
 file2 = open("mypic.JPG","wb")
 for i in file:
     file2.write(i)
+
+file3 = open("myfile.txt","a")
+
+file3.write(" company ")
+file3.write(" model ")
+file3.write(" year ")
+file3.write(" created a log ")
+file3.close()
+
+file3 = open('myfile.txt', 'r')
+
+for each in file3: 
+    print(each)
