@@ -228,12 +228,3 @@ file.write("info \n")
 file.write("Name \n")
 file.write("Date of birth \n")
 file.write("Place of birth \n")
-file.write("Profession \n")
-file.close()       
-
-
-
-
-    
-
-
